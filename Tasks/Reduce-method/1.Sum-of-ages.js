@@ -4,11 +4,9 @@
 
 function sumOfAges(arr){
     if (!(arr instanceof Array)) return
-    return arr.reduce(elem => {
-        return 
-    })
+    return arr.filter(elem => {return elem >= 18}).reduce((a,b) => {return a+b});
 }
 
-const arr = [1, 22, 55, 166, 5, 36, 11, 205, 333, 95, 62, 10, 43];
+const arr = [1, 22, 55, 166, 5, 366, 11, 205, 333, 95, 62, 10, 43];
 
 console.log(sumOfAges(arr)); // 22 + 55 + 166 + 366 + 205 + 333 + 95 + 62 + 43 = 1347
