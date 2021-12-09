@@ -4,7 +4,7 @@
 
 function getAverageAge(arr){
     if (!(arr instanceof Array)) return
-    return arr.map(elem => {return elem.age}).reduce((a,b) => {return a+b}) / 2;
+    return arr.map(elem => {return elem.age}).reduce((a,b) => {return a+b}) / arr.length;
 }
 
 const users = [
