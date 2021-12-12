@@ -1,5 +1,5 @@
 # Implementation of methods
-* [Array methods](https://github.com/Arman0701/JSON-Date-Array-methods/tree/b961b533190042753cd8b09eb6868db45935e71b/Tasks/Implementation-of-methods)
+* [Array methods](https://github.com/Arman0701/JSON-Date-Array-methods/tree/master/Tasks/Implementation-of-methods/Array-methods)
 ---
 * [String methods](https://github.com/Arman0701/JSON-Date-Array-methods/tree/master/Tasks/Implementation-of-methods/String-methods)
 
