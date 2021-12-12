@@ -9,10 +9,6 @@ String.prototype.fakeIncludes = function(value){
             find += this[j];
         }
         if (find === value) return true;
-
-        // // console.log(value.length);
-        // console.log(this.length);
-        // console.log(i);
     }
     return false;
 }
