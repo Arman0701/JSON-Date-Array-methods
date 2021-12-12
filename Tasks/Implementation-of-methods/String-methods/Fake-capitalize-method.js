@@ -3,7 +3,6 @@ String.prototype.capitalize = function(){
     for (let i=0; i<result.length; i++){
         let sliced = result[i].toLowerCase().slice(1);
         result[i] = result[i][0].toUpperCase()+sliced;
-
     }
     return result.join(' ')
 }
