@@ -2,6 +2,7 @@
 
 Array.prototype.fakeJoin = function(separator){
     if (typeof separator !== 'string') return
+    separator = separator === undefined ? ',' : separator;
     let result = '';
     for (let i=0; i<this.length; i++){
         if (i === this.length-1){
